@@ -134,7 +134,7 @@ public class WishlistFragment extends Fragment {
 
     public void fetchWishlistItems() {
         swipeRefreshLayout.setRefreshing(true);
-        String url = "https://ebayexpressbackend-233.wl.r.appspot.com/mongodb/getWishList";
+        String url = "https://ebayexpressbackend-233.wl.r.appspot.com/mongodb/getWishList2";
         mRequestQueue = Volley.newRequestQueue(getContext());
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
