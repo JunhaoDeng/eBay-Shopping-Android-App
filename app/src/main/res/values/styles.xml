@@ -1,0 +1,127 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#A63A0788</item>
+        <item name="colorPrimaryDark">#1B4AD8</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SearchContainer">
+        <item name="android:layout_marginStart">@dimen/search_container_start_margin</item>
+        <item name="android:layout_marginEnd">@dimen/search_container_end_margin</item>
+    </style>
+
+    <style name="SearchHeadingText" parent="SearchContainer">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:layout_marginTop">@dimen/search_top_margin</item>
+    </style>
+
+    <style name="SearchHeadingOnlyText">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#8A8A8C</item>
+    </style>
+
+    <style name="SearchErrorText" parent="SearchContainer">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFF0000</item>
+        <item name="android:layout_marginTop">@dimen/search_top_margin</item>
+    </style>
+
+    <style name="SearchErrorTextOnly">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFF0000</item>
+        <item name="android:layout_marginTop">@dimen/search_top_margin</item>
+    </style>
+
+    <style name="SearchNormalText">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#FF000000</item>
+    </style>
+
+    <style name="SearchButtons">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#F44336</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingVertical">5dp</item>
+    </style>
+
+    <style name="ResultsTitleHeading">
+<!--        <item name="android:gravity">center_horizontal|top</item>-->
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/product_title_text_size</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+    <style name="ResultsPriceText">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#A63A0788</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ResultsOtherText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/results_other_text_color</item>
+    </style>
+
+    <style name="ErrorText" parent="SearchContainer">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/results_other_text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="SectionHeading">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/icon_tint_color</item>
+        <item name="android:textStyle">bold</item>
+<!--        <item name="android:layout_marginStart">@dimen/section_heading_margin_start</item>-->
+        <item name="android:layout_marginTop">@dimen/section_heading_margin_top</item>
+        <item name="android:drawablePadding">@dimen/product_page_drawable_padding</item>
+        <item name="android:drawableTint">@color/icon_tint_color</item>
+    </style>
+    <style name="SectionHeading_for_shipping">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <!--        <item name="android:layout_marginStart">@dimen/section_heading_margin_start</item>-->
+        <item name="android:layout_marginTop">@dimen/section_heading_margin_top</item>
+        <item name="android:drawablePadding">@dimen/product_page_drawable_padding</item>
+        <item name="android:drawableTint">@color/black</item>
+    </style>
+
+    <style name="NormalText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/icon_tint_color</item>
+    </style>
+
+    <style name="NormalText_for_shipping">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="OtherText" parent="ResultsOtherText" />
+    <style name="OtherText_for_shipping_entry">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/icon_tint_color</item>
+    </style>
+
+</resources>

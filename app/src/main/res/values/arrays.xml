@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string-array name="search_sort_categories">-->
+<!--        <item>Best Match</item>-->
+<!--        <item>Price: highest first</item>-->
+<!--        <item>Price + Shipping: Highest first</item>-->
+<!--        <item>Price + Shipping: Lowest first</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="search_sort_categories_id">-->
+<!--        <item>BestMatch</item>-->
+<!--        <item>CurrentPriceHighest</item>-->
+<!--        <item>PricePlusShippingHighest</item>-->
+<!--        <item>PricePlusShippingLowest</item>-->
+<!--    </string-array>-->
+    <string-array name="search_categories">
+        <item>All</item>
+        <item>Art</item>
+        <item>Baby</item>
+        <item>Books</item>
+        <item>Clothing,Shoes and Accessories</item>
+        <item>Computer, Tablets and Network</item>
+        <item>Health and Beauty</item>
+        <item>Music</item>
+        <item>Video, Games and Consoles</item>
+    </string-array>
+
+    <string-array name="category_sort">
+        <item>Default</item>
+        <item>Name</item>
+        <item>Price</item>
+        <item>Days</item>
+    </string-array>
+
+    <string-array name="sort_order">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+
+
+    <string-array name="search_categories_id">
+        <item>-1</item>
+        <item>550</item>
+        <item>2984</item>
+        <item>267</item>
+        <item>11450</item>
+        <item>58058</item>
+        <item>26395</item>
+        <item>11233</item>
+        <item>1249</item>
+    </string-array>
+
+</resources>

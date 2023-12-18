@@ -1,0 +1,119 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">eBay Search</string>
+
+    <!-- Server Root -->
+    <!--    <string name="server_root">http://localhost:8080</string>-->
+    <string name="server_root">http://10.0.2.2:8080</string>
+
+    <!-- Main Activity -->
+    <string name="tab_text_1">Search</string>
+    <string name="wish_list">WishList</string>
+
+    <!-- Search -->
+    <string name="search_keyword">Keyword</string>
+    <string name="search_keyword_hint">Enter Keyword</string>
+    <string name="search_keyword_error">Please enter mandatory field</string>
+
+    <string name="category">Category</string>
+
+    <string name="search_condition">Condition</string>
+    <string name="search_condition_new">New</string>
+    <string name="search_condition_used">Used</string>
+    <string name="search_condition_unspecified">Unspecified</string>
+
+    //shipping options
+    <string name="search_shipping">Shipping Options</string>
+    <string name="search_shipping_local">Local Pickup</string>
+    <string name="search_shipping_free">Free Shipping</string>
+
+    <string name="search_enable_nearby_search">Enable Nearby Search</string>
+    <string name="search_distance">Distance</string>
+    <string name="search_nearby_search_miles_hint">Miles from</string>
+    //From header
+    <string name="search_nearby_search_from">From</string>
+    <string name="search_current_location">Current Location</string>
+    <string name="search_nearby_search_zipcode_hint">Zipcode</string>
+    <string name="search_nearby_search_zipcode_error">Please enter mandatory field</string>
+
+    <string name="search_price">Price Range</string>
+    <string name="search_price_error">Please enter valid price values</string>
+
+    <string name="search_enable_nearby_location">Enable Nearby Search</string>
+    <string name="search_location_miles_hint">Miles from 90089</string>
+    <string name="search_location_from">From</string>
+    <string name="search_zipcode_error">Please enter mandatory field</string>
+
+    <string name="search_button">Search</string>
+    <string name="search_clear_button">Clear</string>
+
+    <string name="search_fetching_location_error">Error while fetching the current zipcode. Please manually enter it or try again after sometime.</string>
+    <string name="please_fix_all_fields_with_error">Please fix all fields with errors</string>
+
+    <!-- Search Results -->
+    <string name="search_results_title">Search Results</string>
+    <string name="search_results_total_items">Showing &lt;font color=\"%s\">%d&lt;/font> results for &lt;font color=\"%s\">%s&lt;/font></string>
+    <string name="search_results_no_records">No Results Found</string>
+    <string name="wish_list_no_item">No items in Wishlist</string>
+    <string name="wishlist_total_items">Wishlist Total (%1$d items)</string>
+    <string name="wishlist_total_price">Total: $%1$.2f</string>
+
+    <!-- Product Activity -->
+    <string name="product_tab_title_product">Product</string>
+    <string name="product_tab_title_shipping">Shipping</string>
+    <string name="product_tab_title_photos">Photos</string>
+    <string name="no_photos">No Photos</string>
+    <string name="product_tab_title_similar">Similar</string>
+    <string name="product_tab_title_seller">Seller Info</string>
+    <string name="product_tab_no_product_details">No product details.</string>
+    <string name="product_tab_no_seller">No seller info available.</string>
+    <string name="product_tab_no_images">No images.</string>
+    <string name="product_tab_no_shipping_details">No shipping details.</string>
+    <string name="highlights">Highlights</string>
+
+    <string name="specifications">Specifications</string>
+    <string name="subtitle_text">Subtitle</string>
+    <string name="price_text">Price</string>
+    <string name="brand_text">Brand</string>
+    <string name="with_free_shipping">with Free Shipping</string>
+    <string name="with_extra_shipping">With $%s Shipping</string>
+
+    <string name="return_policy">Return Policy</string>
+    <string name="return_policy_policy">Policy</string>
+    <string name="return_policy_returns_within">Returns within</string>
+    <string name="return_policy_refund_mode">Refund Mode</string>
+    <string name="return_policy_shipped_by">Shipped by</string>
+
+    <string name="sold_by">Sold By</string>
+    <string name="sold_by_store_name">Store Name</string>
+    <string name="sold_by_feedback_score">Feedback Score</string>
+    <string name="sold_by_popularity">Popularity</string>
+    <string name="sold_by_feedback_star">Feedback Star</string>
+
+    <string name="shipping_info">Shipping Info</string>
+    <string name="shipping_info_shipping_cost">Shipping Cost</string>
+    <string name="shipping_info_global_shipping">Global Shipping</string>
+    <string name="shipping_info_handling_time">Handling Time</string>
+    <string name="shipping_info_condition">Condition</string>
+
+    <string name="error_while_fetching_product_details">Error while fetching Product Details:</string>
+    <string name="error_while_fetching_photos">Error while fetching Photos:</string>
+    <string name="error_facebook_share_data_not_fetched">Please try again after product data is fetched</string>
+    <string name="error_facebook_share_data_not_found">Product data not found so can\'t open eBay</string>
+
+    <string name="facebook_share_message">Buy %s for $%s from Ebay!</string>
+    <string name="facebook_share_hash_tag">#CSCI571Spring2019Ebay</string>
+
+    <string name="searching_products">Searching Products&#8230;</string>
+    <string name="searching_similar_products">Searching Similar Products&#8230;</string>
+    <string name="searching_product_detail">Fetching Product Details&#8230;</string>
+    <string name="searching_photos">Searching Photos&#8230;</string>
+    <string name="price">$%s</string>
+    <string name="free_shipping">Free Shipping</string>
+    <string name="n_a">N/A</string>
+    <string name="no_response_from_server">No response from server</string>
+    <string name="not_connected_to_internet">Not connected to internet</string>
+    <string name="horizontal_ellipsis">&#8230;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/app_orange_accent</color>
+<!--    #FF3D00D1-->
+<!--    <color name="colorPrimaryDark">#FF1D0076</color>-->
+    <color name="colorPrimaryDark">@color/app_orange_accent</color>
+    <color name="colorAccent">#A69256EE</color>
+    <color name="primaryColor">#A62E056A</color>
+    <color name="black">#000000</color>
+
+    <color name="app_orange_accent">#FFD37159</color>
+    <color name="app_blue_eBay">#3665F3</color>
+
+    <color name="shopping_icon_color">#FFC6373E</color>
+
+    <color name="orange">#FF5722</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tab_selected_color">#FFFFFFFF</color>
+    <color name="tab_unselected_color">#FF828283</color>
+    <color name="tab_normal_color">#FFBC78E7</color>
+
+    <color name="search_results_total_items_text_color">@color/app_blue_eBay</color>
+
+<!--    <color name="results_price_color">#FF421296</color>-->
+    <color name="results_price_color">#85B716</color>
+<!--    <color name="green">#8BC34A</color>-->
+
+    <color name="results_other_text_color">#6F6E6E</color>
+    <color name="card_bg">#F1F3F4</color>
+
+    <color name="cart_add_color">@color/results_other_text_color</color>
+    <color name="cart_remove_color">@color/app_orange_accent</color>
+
+    <color name="icon_tint_color">#FF828283</color>
+    <color name="section_heading">#FF000000</color>
+    <color name="section_break_line">#FFD3D3D3</color>
+
+    <color name="yellow">#FFEB3B</color>
+    <color name="blue">#2196F3</color>
+    <color name="turquoise">#00BCD4</color>
+    <color name="purple">#9C27B0</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#4CAF50</color>
+    <color name="silver">#C0C0C0</color>
+
+
+</resources>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/SearchHeadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/search_keyword" />
+
+    <EditText
+        android:id="@+id/search_keyword"
+        style="@style/SearchContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="false"
+        android:hint="@string/search_keyword_hint"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/search_keyword_error"
+        style="@style/SearchErrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_keyword_error"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <TextView
+        style="@style/SearchHeadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category" />
+
+    <Spinner
+        android:id="@+id/search_sort"
+        style="@style/SearchContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/search_keyword_hint" />
+
+    <TextView
+        style="@style/SearchHeadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15px"
+        android:text="@string/search_condition"
+    />
+
+    <LinearLayout
+        style="@style/SearchContainer"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_top_margin"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/search_condition_new"
+            style="@style/SearchNormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_condition_new"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/search_condition_used"
+            style="@style/SearchNormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/search_checkbox_start_margin"
+            android:text="@string/search_condition_used"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/search_condition_unspecified"
+            style="@style/SearchNormalText"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/search_checkbox_start_margin"
+            android:text="@string/search_condition_unspecified"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/SearchHeadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_shipping"
+    />
+
+    <LinearLayout
+        style="@style/SearchContainer"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_top_margin"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/search_shipping_local"
+            style="@style/SearchNormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_shipping_local"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/search_shipping_free"
+            style="@style/SearchNormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/search_checkbox_start_margin"
+            android:text="@string/free_shipping"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/SearchContainer"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_top_margin"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_enable_nearby_search"
+            android:textStyle="bold"
+            />
+        <CheckBox
+            android:id="@+id/search_enable_nearby_search"
+            style="@style/SearchNormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/search_nearby_search_miles_header"
+        style="@style/SearchHeadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/search_distance"
+        />
+
+    <EditText
+        android:id="@+id/search_nearby_search_miles"
+        style="@style/SearchContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="false"
+        android:hint="@string/search_nearby_search_miles_hint"
+        android:maxLines="1"
+        android:inputType="number"
+        android:digits="0123456789"/>
+
+    <TextView
+        android:id="@+id/search_nearby_radio_group_header"
+        style="@style/SearchHeadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/search_nearby_search_from"
+        />
+
+    <RadioGroup
+        android:id="@+id/search_nearby_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RadioButton
+            android:id="@+id/radio_current_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Location"
+            android:textSize="20dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#808080"/>
+
+        <!-- This RadioButton is visually on the same line as the EditText, but still part of the RadioGroup -->
+        <RadioButton
+            android:id="@+id/radio_zipcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <!-- Separate LinearLayout for the EditText to be on the same line as the radio_zipcode RadioButton -->
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="-60dp"
+        tools:ignore="ExtraText">
+
+        <View
+            android:id="@+id/empty_view"
+            android:layout_width="48dp"
+            android:layout_height="match_parent" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/editTextZipcode"
+            android:layout_toEndOf="@id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_nearby_search_zipcode_hint" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/editTextZipcodeError"
+        style="@style/SearchErrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-15px"
+        android:text="@string/search_keyword_error"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextZipcode"-->
+<!--        android:layout_width="295dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toEndOf="@id/empty_view"-->
+<!--        android:hint="@string/search_nearby_search_zipcode_hint"-->
+<!--        android:inputType="numberDecimal" />-->
+
+    <LinearLayout
+        android:id="@+id/search_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/search_button"
+            style="@style/SearchButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/search_button" />
+
+        <Button
+            android:id="@+id/clear_button"
+            style="@style/SearchButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/search_clear_button" />
+
+    </LinearLayout>
+
+</LinearLayout>

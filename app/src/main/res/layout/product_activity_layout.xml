@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ebay_app.ebay_product_search.ProductDetailActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/product_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+        <android.support.design.widget.TabLayout
+            android:id="@+id/product_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@color/primaryColor"
+            app:tabIconTint="@color/card_bg"
+            app:tabTextColor="@color/card_bg"
+            />
+    </android.support.v4.view.ViewPager>
+
+
+    <ImageView
+        android:id="@+id/cart_plus_icon_circle"
+        android:layout_width="74dp"
+        android:layout_height="89dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/cart_plus_circle" />
+
+    <ImageView
+        android:id="@+id/cart_remove_icon_circle"
+        android:layout_width="74dp"
+        android:layout_height="89dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/cart_remove_circle" />
+
+</android.support.design.widget.CoordinatorLayout>

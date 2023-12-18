@@ -1,0 +1,136 @@
+{
+                            "itemId": [
+                                "254603172743"
+                            ],
+                            "title": [
+                                "Harry Potter Wizarding World Ron Weasley Jointed Doll Deboxed Complete"
+                            ],
+                            "globalId": [
+                                "EBAY-US"
+                            ],
+                            "primaryCategory": [
+                                {
+                                    "categoryId": [
+                                        "29798"
+                                    ],
+                                    "categoryName": [
+                                        "Harry Potter"
+                                    ]
+                                }
+                            ],
+                            "galleryURL": [
+                                "https://thumbs4.ebaystatic.com/m/mRQTd4lAX5ZFuwrx4IX9cEQ/140.jpg"
+                            ],
+                            "viewItemURL": [
+                                "https://www.ebay.com/itm/Harry-Potter-Wizarding-World-Ron-Weasley-Jointed-Doll-Deboxed-Complete-/254603172743"
+                            ],
+                            "paymentMethod": [
+                                "PayPal"
+                            ],
+                            "autoPay": [
+                                "true"
+                            ],
+                            "postalCode": [
+                                "786**"
+                            ],
+                            "location": [
+                                "Manchaca,TX,USA"
+                            ],
+                            "country": [
+                                "US"
+                            ],
+                            "shippingInfo": [
+                                {
+                                    "shippingServiceCost": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "0.0"
+                                        }
+                                    ],
+                                    "shippingType": [
+                                        "Free"
+                                    ],
+                                    "shipToLocations": [
+                                        "Worldwide"
+                                    ],
+                                    "expeditedShipping": [
+                                        "false"
+                                    ],
+                                    "oneDayShippingAvailable": [
+                                        "false"
+                                    ],
+                                    "handlingTime": [
+                                        "2"
+                                    ]
+                                }
+                            ],
+                            "sellingStatus": [
+                                {
+                                    "currentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "11.0"
+                                        }
+                                    ],
+                                    "convertedCurrentPrice": [
+                                        {
+                                            "@currencyId": "USD",
+                                            "__value__": "11.0"
+                                        }
+                                    ],
+                                    "sellingState": [
+                                        "Active"
+                                    ],
+                                    "timeLeft": [
+                                        "P30DT23H25M38S"
+                                    ]
+                                }
+                            ],
+                            "listingInfo": [
+                                {
+                                    "bestOfferEnabled": [
+                                        "false"
+                                    ],
+                                    "buyItNowAvailable": [
+                                        "false"
+                                    ],
+                                    "startTime": [
+                                        "2020-05-21T01:29:22.000Z"
+                                    ],
+                                    "endTime": [
+                                        "2020-06-21T01:29:22.000Z"
+                                    ],
+                                    "listingType": [
+                                        "StoreInventory"
+                                    ],
+                                    "gift": [
+                                        "false"
+                                    ]
+                                }
+                            ],
+                            "returnsAccepted": [
+                                "true"
+                            ],
+                            "distance": [
+                                {
+                                    "@unit": "mi",
+                                    "__value__": "1225.0"
+                                }
+                            ],
+                            "condition": [
+                                {
+                                    "conditionId": [
+                                        "3000"
+                                    ],
+                                    "conditionDisplayName": [
+                                        "Used"
+                                    ]
+                                }
+                            ],
+                            "isMultiVariationListing": [
+                                "false"
+                            ],
+                            "topRatedListing": [
+                                "false"
+                            ]
+                        }

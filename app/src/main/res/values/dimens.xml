@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Search -->
+    <dimen name="search_container_start_margin">20dp</dimen>
+    <dimen name="search_container_end_margin">50dp</dimen>
+    <dimen name="search_top_margin">10dp</dimen>
+    <dimen name="search_checkbox_start_margin">4dp</dimen>
+    <dimen name="product_title_text_size">15dp</dimen>
+
+    <dimen name="product_page_title_margin_start">10dp</dimen>
+
+    <dimen name="product_page_section_margin_start">5dp</dimen>
+    <dimen name="product_page_horizontal_line_margin_start">20dp</dimen>
+
+    <dimen name="product_page_drawable_padding">8dp</dimen>
+
+    <dimen name="section_margin_top">10dp</dimen>
+    <dimen name="shipping_section_margin_top">20dp</dimen>
+    <dimen name="section_heading_margin_start">5dp</dimen>
+    <dimen name="section_heading_margin_top">@dimen/section_margin_top</dimen>
+    <dimen name="section_body_margin_start">16dp</dimen>
+    <dimen name="shipping_body_margin_start">30dp</dimen>
+    <dimen name="section_body_margin_top">5dp</dimen>
+    <dimen name="layout_width_for_shipping_entry">110dp</dimen>
+</resources>

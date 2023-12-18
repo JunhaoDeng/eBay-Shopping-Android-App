@@ -1,0 +1,87 @@
+{
+    "Timestamp": "2020-05-21T04:04:58.878Z",
+    "Ack": "Success",
+    "Build": "E1141_CORE_APILW_19170841_R1",
+    "Version": "1141",
+    "Item": {
+        "BestOfferEnabled": false,
+        "Description": "<p>Figure is complete and like new! Kept on display from a kid free home.</p>",
+        "ItemID": "254603172743",
+        "EndTime": "2020-06-21T01:29:22.000Z",
+        "StartTime": "2020-05-21T01:29:22.000Z",
+        "ViewItemURLForNaturalSearch": "https://www.ebay.com/itm/Harry-Potter-Wizarding-World-Ron-Weasley-Jointed-Doll-Deboxed-Complete-/254603172743",
+        "ListingType": "FixedPriceItem",
+        "Location": "Manchaca, Texas",
+        "PaymentMethods": [
+            "PayPal"
+        ],
+        "GalleryURL": "https://thumbs4.ebaystatic.com/pict/2546031727438080_1.jpg",
+        "PictureURL": [
+            "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/iLEAAOSwZmpexdkU/$_12.JPG?set_id=880000500F",
+            "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/czIAAOSwOJVexdkX/$_12.JPG?set_id=880000500F",
+            "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/anQAAOSwRrJexdkb/$_12.JPG?set_id=880000500F",
+            "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/QWYAAOSw7Bdexdke/$_12.JPG?set_id=880000500F",
+            "https://i.ebayimg.com/00/s/MTYwMFgxMjAw/z/pTwAAOSwmzxexdkk/$_12.JPG?set_id=880000500F"
+        ],
+        "PostalCode": "786**",
+        "PrimaryCategoryID": "29798",
+        "PrimaryCategoryName": "Collectibles:Fantasy, Mythical & Magic:Harry Potter",
+        "Quantity": 1,
+        "Seller": {
+            "UserID": "bermudaspiral",
+            "FeedbackRatingStar": "Purple",
+            "FeedbackScore": 924,
+            "PositiveFeedbackPercent": 99.7,
+            "TopRatedSeller": true
+        },
+        "BidCount": 0,
+        "ConvertedCurrentPrice": {
+            "Value": 11.0,
+            "CurrencyID": "USD"
+        },
+        "CurrentPrice": {
+            "Value": 11.0,
+            "CurrencyID": "USD"
+        },
+        "ListingStatus": "Active",
+        "QuantitySold": 0,
+        "ShipToLocations": [
+            "US"
+        ],
+        "Site": "US",
+        "TimeLeft": "P30DT21H24M24S",
+        "Title": "Harry Potter Wizarding World Ron Weasley Jointed Doll Deboxed Complete",
+        "ItemSpecifics": {
+            "NameValueList": [
+                {
+                    "Name": "Brand",
+                    "Value": [
+                        "mattel"
+                    ]
+                }
+            ]
+        },
+        "HitCount": 13,
+        "PrimaryCategoryIDPath": "1:10860:29798",
+        "Storefront": {
+            "StoreURL": "https://stores.ebay.com/id=197964557",
+            "StoreName": "The Nerd Museum"
+        },
+        "Country": "US",
+        "ReturnPolicy": {
+            "Refund": "Money Back",
+            "ReturnsWithin": "30 Days",
+            "ReturnsAccepted": "Returns Accepted",
+            "ShippingCostPaidBy": "Seller"
+        },
+        "AutoPay": true,
+        "PaymentAllowedSite": [],
+        "IntegratedMerchantCreditCardEnabled": false,
+        "HandlingTime": 2,
+        "ConditionID": 3000,
+        "ConditionDisplayName": "Used",
+        "GlobalShipping": false,
+        "QuantitySoldByPickupInStore": 0,
+        "NewBestOffer": false
+    }
+}
